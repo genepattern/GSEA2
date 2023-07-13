@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Basic parameters",
+        "hidden": false,
+        "parameters": [
+            "expression.dataset",
+            "gene.sets.database",
+            "number.of.permutations",
+            "phenotype.labels",
+            "reverse.phenotypes",
+            "permutation.type",
+            "collapse.dataset",
+            "chip.platform.file"
+        ]
+    },
+    {
+        "name": "Algorithmic",
+        "hidden": false,
+        "parameters": [
+            "metric.for.ranking.genes",
+            "enrichment.algorithm",
+            "weighting.exponent",
+            "max.gene.set.size",
+            "min.gene.set.size",
+            "seed.for.permutation",
+            "override.gene.list.length.validation"
+        ]
+    },
+    {
+        "name": "Reporting",
+        "hidden": false,
+        "parameters": [
+            "plot.graphs"
+        ]
+    }
+]
