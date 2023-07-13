@@ -1,7 +1,7 @@
 #GSEA2
 #Wed Aug 10 18:48:50 UTC 2022
 JVMLevel=
-LSID=urn\:lsid\:8080.gpserver.ip-172-31-26-71.ip-172-31-26-71.ec2.internal\:genepatternmodules\:477\:1.4
+LSID=urn\:lsid\:genepattern.org\:module.analysis\:00438\:1
 author=
 commandLine=python3 <libdir>run.gsea2.py --libdir\=<libdir> <expression.dataset> <gene.sets.database> <number.of.permutations> <phenotype.labels> <reverse.phenotypes> <permutation.type> <collapse.dataset> <chip.platform.file> <metric.for.ranking.genes> <enrichment.algorithm> <weighting.exponent> <max.gene.set.size> <min.gene.set.size> <seed.for.permutation> <override.gene.list.length.validation> <plot.graphs> --cpu\=<job.cpuCount>
 cpuType=any
