@@ -1,0 +1,16 @@
+{
+  "number_of_permutations": 1000,
+  "permutation": "sample",
+  "feature_name": "Features",
+  "metric": "signal_to_noise_ratio",
+  "score_name": "signal_to_noise_ratio",
+  "algorithm": "ks",
+  "exponent": 1.0,
+  "maximum_gene_set_size": 500,
+  "minimum_gene_set_size": 15,
+  "remove_gene_set_genes": true,
+  "random_seed": 1689710289,
+  "number_of_jobs": 3,
+  "number_of_extreme_gene_sets_to_plot": 20,
+  "gene_sets_to_plot": []
+}
