@@ -1,0 +1,26 @@
+
+# Job: 92289
+# User: edwin5588
+# Submitted: 2023-07-18 19:56:33.0
+# Started Running: 2023-07-18 19:56:43.0
+# Finished Running: 2023-07-18 20:04:46.0
+# Completed: Tue Jul 18 20:05:25 UTC 2023
+# ET(ms): 532249    server:  https://beta.genepattern.org/gp/
+# Module: GSEA2 urn:lsid:8080.gpserver.ip-172-31-26-71.ip-172-31-26-71.ec2.internal:genepatternmodules:477:1.6
+# Parameters: 
+#    expression.dataset = https://datasets.genepattern.org/gpftp/gpunit/GSEA/v19/input/Diabetes_collapsed_symbols.gct # file size 	 3207483	15056	34
+#    gene.sets.database = gene.sets.database.list.txt   https://beta.genepattern.org/gp/users/edwin5588/tmp/run1022543055293974286.tmp/gene.sets.database.list.txt # file size 	121
+#    number.of.permutations = 1000
+#    phenotype.labels = https://datasets.genepattern.org/gpftp/gpunit/GSEA/v19/input/Diabetes.cls # file size 	93
+#    reverse.phenotypes = False
+#    permutation.type = phenotype
+#    collapse.dataset = none
+#    chip.platform.file = 
+#    metric.for.ranking.genes = signal_to_noise_ratio
+#    enrichment.algorithm = Kolmogorov-Smirnov (Classic GSEA)
+#    weighting.exponent = 1
+#    max.gene.set.size = 500
+#    min.gene.set.size = 15
+#    seed.for.permutation = timestamp
+#    override.gene.list.length.validation = False
+#    plot.graphs = 20
