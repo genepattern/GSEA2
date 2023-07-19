@@ -1,1 +1,43 @@
 ## todo
+
+# Parameters: 
+#    expression.dataset = https://datasets.genepattern.org/gpftp/gpunit/GSEA/v19/input/Diabetes_collapsed_symbols.gct # file size 	 3207483	15056	34
+#    gene.sets.database = gene.sets.database.list.txt   https://beta.genepattern.org/gp/users/edwin5588/tmp/run1022543055293974286.tmp/gene.sets.database.list.txt # file size 	121
+#    number.of.permutations = 1000
+#    phenotype.labels = https://datasets.genepattern.org/gpftp/gpunit/GSEA/v19/input/Diabetes.cls # file size 	93
+#    reverse.phenotypes = False
+#    permutation.type = phenotype
+#    collapse.dataset = none
+#    chip.platform.file = 
+#    metric.for.ranking.genes = signal_to_noise_ratio
+#    enrichment.algorithm = Kolmogorov-Smirnov (Classic GSEA)
+#    weighting.exponent = 1
+#    max.gene.set.size = 500
+#    min.gene.set.size = 15
+#    seed.for.permutation = timestamp
+#    override.gene.list.length.validation = False
+#    plot.graphs = 20
+
+name: "GSEA2_basic_diff_test"
+module: GSEA2
+params:
+  expression.dataset = https://datasets.genepattern.org/gpftp/gpunit/GSEA/v19/input/Diabetes_collapsed_symbols.gct,
+  gene.sets.database = gene.sets.database.list.txt   https://beta.genepattern.org/gp/users/edwin5588/tmp/run1022543055293974286.tmp/gene.sets.database.list.txt,
+  number.of.permutations = 1000,
+  phenotype.labels = https://datasets.genepattern.org/gpftp/gpunit/GSEA/v19/input/Diabetes.cls,
+  reverse.phenotypes = False,
+  permutation.type = phenotype,
+  collapse.dataset = none,
+  chip.platform.file = ,
+  metric.for.ranking.genes = signal_to_noise_ratio,
+  enrichment.algorithm = Kolmogorov-Smirnov (Classic GSEA),
+  weighting.exponent = 1,
+  max.gene.set.size = 500,
+  min.gene.set.size = 15,
+  seed.for.permutation = timestamp,
+  override.gene.list.length.validation = False,
+  plot.graphs = 20,
+assertions:
+  jobStatus: success
+  files:
+    
